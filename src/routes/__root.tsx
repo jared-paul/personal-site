@@ -20,6 +20,11 @@ export const Route = createRootRoute({
     ],
     links: [
       {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/cerealbox.png',
+      },
+      {
         rel: 'stylesheet',
         href: appCss,
       },
