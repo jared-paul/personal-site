@@ -22,13 +22,14 @@ function HomeComponent() {
         <a href="#projects">Projects</a>
         <a href="#resume">Resume</a>
         <a href="#links">Links</a>
+        <a href="#contact">Contact</a>
       </nav>
 
       <hr className="my-4" />
 
       <h2 id="about" className="text-2xl font-bold mb-2">About Me</h2>
       <p className="mb-4">
-        Welcome! I am a software engineer working at Amazon in Prime Payments, and no, I do not get Prime for free haha :(. I started developing as a kid writing Minecraft plugins, some of which you can find on my <a href="https://github.com/jared-paul/Skookum" className="text-blue-600 hover:underline">GitHub</a>. I then went on to study computer engineering at UBC, graduating in 2023.
+        Welcome! I am a software engineer working at Amazon in Prime Payments, and no, I do not get Prime for free haha :(. I started developing as a kid writing Minecraft plugins, some of which you can still find on my <a href="https://github.com/jared-paul/Skookum" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">GitHub</a>. I then went on to study computer engineering at UBC, graduating in 2023.
       </p>
       <p className="mb-4">
         These days I usually find something that piques my interest, anywhere from making <a href="#roblox">roblox games</a> to <Link to="/projects/$slug" params={{ slug: 'pop' }} className="text-blue-600 hover:underline">karaoke machines</Link>.
@@ -68,9 +69,14 @@ function HomeComponent() {
 
       <h2 id="links" className="text-2xl font-bold mb-2">Links</h2>
       <ul className="list-disc list-inside mb-4">
-        <li><a href="https://github.com/jared-paul/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">GitHub (jared-paul)</a></li>
+        <li><a href="https://github.com/jared-paul/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/jared-p/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">LinkedIn</a></li>
       </ul>
+
+      <hr className="my-4" />
+
+      <h2 id="contact" className="text-2xl font-bold mb-2">Contact</h2>
+      <p className="mb-4"><a href="mailto:jared@cereal.box" className="text-blue-600 hover:underline">jared@cereal.box</a></p>
 
       <hr className="my-4" />
 
