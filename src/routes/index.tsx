@@ -40,7 +40,7 @@ function HomeComponent() {
       </p>
 
       <h2 id="projects" className="text-2xl font-bold mb-2 mt-8">Projects</h2>
-      <p className="mb-2">I own <a href="https://cereal.box" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">cereal.box</a> — you can find most of my projects there.</p>
+      <p className="mb-2">I own <a href="https://cereal.box" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">cereal.box</a> - you can find most of my projects there.</p>
       <p className="mb-4">But here is a quick list:</p>
 
       <div className="mb-4"></div>
